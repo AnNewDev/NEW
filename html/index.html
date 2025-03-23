@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../asset/CaloriesWise.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/beasley" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Draggable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/EaselPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/PixiPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
+
+    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/EasePack.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script>
+    <script type="module" src="../js/app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CaloriesWise</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Join</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block">
+          <a href="#" class="btn btn-custom">Talk to Our Team</a>
+        </div>
+      </div>
+    </nav>
+    <!--End Navbar-->
+    <!--Main Content-->
+    <div
+      class="container-fluid d-flex flex-column justify-content-center align-items-center text-center header_1"
+    >
+      <div class="row w-100">
+        <div class="col-12">
+          <h1 class="display-4 fw-bold custom_header1">
+            Systems that deliver<br />
+            outcomes for government.
+          </h1>
+        </div>
+        <div class="col-12 mt-3">
+          <button type="button" class="btn btn-primary custom-btn">
+            Schedule A Demo
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid d-flex flex-column justify-content-center align-items-center text-center header_2"
+    >
+      <div class="row w-100">
+        <div class="col-12">
+          <h1 class="display-4 fw-bold">
+            Legacy systems are<br />expensive, insecure,<br />and stall
+            innovation.
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="content">
+        <div class="text">
+          Your story matters. Strong alignment leads to an authentic brand and
+          organic growth.
+        </div>
+        <div class="domino-container">
+          <img src="../asset/Untitled-1.png" alt="Domino" class="domino" />
+          <img src="../asset/Untitled-1.png" alt="Domino" class="domino" />
+          <img src="../asset/Untitled-1.png" alt="Domino" class="domino" />
+          <img src="../asset/Untitled-1.png" alt="Domino" class="domino" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Next Section -->
+    <div class="section">
+      <div class="container customer_review">
+        <div class="row">
+          <div class="col-12 row-box">
+            <h1>A Must-Have for Health Enthusiasts</h1>
+            <p>Reviewed by Michael Carter, Fitness Coach</p>
+            <p>
+              Calories Wise has been a game-changer for my clients and me. The
+              precise calorie tracking and easy-to-use interface help users stay
+              on top of their nutrition goals. It’s an essential tool for anyone
+              serious about health and fitness.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 row-box">
+            <h1>Reliable and User-Friendly</h1>
+            <p>Reviewed by Emily Roberts, Dietitian</p>
+            <p>
+              As a dietitian, I always recommend Calories Wise to my clients.
+              The platform is accurate, intuitive, and packed with useful
+              features. It simplifies meal planning and ensures users make
+              informed dietary choices.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 row-box">
+            <h1>Great for Weight Management</h1>
+            <p>Reviewed by David Thompson, Personal Trainer</p>
+            <p>
+              I've used several calorie-tracking tools, and Calories Wise stands
+              out. The detailed breakdown of nutrients and progress tracking
+              make it an excellent resource for weight management and overall
+              wellness. Highly recommended!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Next Section -->
+     <div class="section">
+      
+     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

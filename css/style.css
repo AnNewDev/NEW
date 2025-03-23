@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.custom-navbar{
+  background-color: aqua;
+  padding: 20px 10px;
+}
+
+.header_1 { /* Dark background */
+  min-height: 80vh; /* Adjust height to center */
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+/* Responsive Text */
+.header_1 h1 {
+  font-size: clamp(2rem, 5vw, 4rem); /* Adjust text size dynamically */
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.custom-btn{
+  margin: 20px;
+}
+
+.custom-btn, .btn-primary{
+  text-align: center;
+  cursor: pointer;
+  border-radius: 1000rem;
+  justify-content: center;
+  align-items: center;
+  padding: .875rem 1.5rem;
+}
+
+.header_2 { /* Dark background */
+  min-height: 100vh; /* Adjust height to center */
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+  grid-row-gap: 2rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+  display: flex;
+  position: relative;
+  background: aqua;
+  border-radius: 5rem;
+}
+
+/* Responsive Text */
+.header_2 h1 {
+  font-size: clamp(2rem, 5vw, 4rem); /* Adjust text size dynamically */
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.domino-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw; /* Space between dominoes */
+  position: relative;
+  left: 50px;
+  flex-wrap: nowrap; /* Keep all in one row */
+}
+
+.domino {
+  max-width: 10vw; /* Adjust size */
+  height: auto;
+  transform-origin: center;
+  opacity: 0;
+}
+
+.domino2 {
+  display: none;
+  visibility: hidden;
+  max-width: 30vw;
+  height: auto;
+  transform-origin: center;
+  position: relative;
+  left: 50vw; /* Adjust position dynamically */
+}
+
+.text {
+  font-size: 2vw; /* Responsive text size */
+}
+
+.section {
+  position: relative; /* Ensures banner is positioned inside */
+}
+
+.banner-container {
+  position: fixed;  /* Stays on top when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #28a745;
+  color: white;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1000;
+  text-align: center;
+}
+
+.banner {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 100%;
+}
+
+.containe .customer_review{
+  position: relative;
+  top: 50px;
+}
+
+.row-box {
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
