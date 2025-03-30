@@ -14,24 +14,6 @@ gsap.to(".header_2", {
 
 
 
-// Dynamically adjust animation values for different screen sizes
-let xMove = window.innerWidth < 768 ? "-20vw" : "-30vw"; 
-
-gsap.timeline({
-  scrollTrigger: {
-    trigger: ".section",
-    start: "top 0%",
-    end: "+=150%",
-    scrub: true,
-    pin: true
-  }
-})
-.fromTo(".domino", 
-    { opacity: 0, rotate: -20 }, // Start tilted
-    { opacity: 1, rotate: 0, stagger: 0.2 }); // Straighten one by one
-
-
-
 gsap.from(".custom_header1", {
   opacity: 0,
   y: 50,

@@ -139,8 +139,7 @@
 }
 
 .containe .customer_review{
-  position: relative;
-  top: 50px;
+  margin-top: 50px !important;
 }
 
 .row-box {
@@ -150,5 +149,9 @@
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.next_section{
+  height: 100vh;
 }
 
